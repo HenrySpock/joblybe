@@ -25,3 +25,8 @@ yarn-error.log*
 
 /backend
 /frontend/node_modules
+
+jobly-schema.sql
+jobly-seed.sql
+jobly.sel
+package-lock.json
