@@ -16,7 +16,8 @@ const PORT = +process.env.PORT || 3001;
 //       : process.env.DATABASE_URL || "jobly";
 // }
 function getDatabaseUri() {
-  const databaseUrl = process.env.DATABASE_URL || (process.env.NODE_ENV === "test" ? "postgresql://kodai:ronan@localhost:5432/jobly_test" : "postgresql://kodai:ronan@localhost:5432/jobly");
+  // const databaseUrl = process.env.DATABASE_URL || (process.env.NODE_ENV === "test" ? "postgresql://kodai:ronan@localhost:5432/jobly_test" : "postgresql://kodai:ronan@localhost:5432/jobly");
+  const databaseUrl = process.env.DATABASE_URL || (process.env.NODE_ENV === "postgres://henryspock:9GrLTqgnT1XtyiFeIzXJooVHH9Bl0glg@dpg-cmkfckf109ks739mgn4g-a/jobly");
   console.log("DATABASE_URL:", databaseUrl);
   return databaseUrl;
 }
