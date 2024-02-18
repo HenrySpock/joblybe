@@ -28,5 +28,5 @@ yarn-error.log*
 
 jobly-schema.sql
 jobly-seed.sql
-jobly.sel
+jobly.sql
 package-lock.json
